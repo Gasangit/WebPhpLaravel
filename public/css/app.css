@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+}
+.body{
+    background-color: rgba(27, 40, 56);
+    background: linear-gradient(90deg, rgba(27, 40, 56,1) 0%, rgb(40, 72,101,1) 35%, rgba(51,75,105,1) 100%);
+}
+
+.header{
+    /* min-height: 6em; */
+    background-color: transparent;
+
+}
+
+.search{
+    max-width: 7em;
+    margin: 0 1em 0 0;
+}
+
+/* ajustar fuente a futuro */
+.h2disponibles{
+    color: white;
+    margin: 2em 0 0 2em;   
+}
+
+.imagen-producto {
+    display: block;
+    width: 1500px;
+    margin: 0px auto;
+}

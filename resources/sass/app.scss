@@ -1,0 +1,67 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.imagen-producto {
+    display: block;
+    width: 250px;
+    margin: 0px auto;
+}
+
+body{
+    background-color: rgba(27, 40, 56);
+    background: linear-gradient(90deg, rgba(27, 40, 56,1) 0%, rgb(40, 72,101,1) 35%, rgba(51,75,105,1) 100%);
+}
+
+.standardBackgroundColor{
+    background-color: rgba(64, 89, 121, 0.95);
+}
+
+.cardBackground{
+    background-color: rgba(64, 89, 121, 0.95);
+    border: none;
+}
+
+.cardH3{
+    min-height: 3em;
+    max-height: 3em;
+}
+
+.cardParagraph{
+    min-height: 15em;
+    max-height: 15em;
+}
+
+header{
+    /* min-height: 6em; */
+    background-color: transparent;
+
+}
+
+.search{
+    max-width: 7em;
+    margin: 0 1em 0 0;
+}
+
+.formulario{
+    background: rgba(59, 92, 131, 0.849);
+}
+
+.containerCompra{
+
+    margin : 10em 0 0 0;
+}
+
+.eliminarLink{
+    text-decoration: none;
+}
+
+.textoLogin{
+    font-size: 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
